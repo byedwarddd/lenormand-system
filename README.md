@@ -134,7 +134,6 @@
 
     <main class="flex-grow max-w-7xl w-full mx-auto px-3 sm:px-6 lg:px-8 py-4 sm:py-8">
         
-        <!-- ==================== 1. DIVINATION VIEW ==================== -->
         <div id="view-divination" class="space-y-6 sm:space-y-8">
             <div class="text-center max-w-2xl mx-auto space-y-2 py-2 sm:py-4">
                 <div class="inline-block text-antique-gold text-xs sm:text-sm tracking-widest font-occult uppercase border-b border-antique-gold/40 pb-1">Morning Sanctuary</div>
@@ -288,7 +287,6 @@
             </form>
         </div>
 
-        <!-- ==================== 2. RECORDS & REVIEW VIEW ==================== -->
         <div id="view-records" class="hidden space-y-4 sm:space-y-6">
             <div class="flex flex-col md:flex-row justify-between items-stretch md:items-center gap-3 bg-white p-4 rounded-2xl border border-parchment-300 shadow-sm">
                 <div class="flex flex-col sm:flex-row flex-wrap items-stretch sm:items-center gap-2.5 sm:gap-3">
@@ -334,7 +332,6 @@
             </div>
         </div>
 
-        <!-- ==================== 3. DETAIL & REVIEW VIEW ==================== -->
         <div id="view-detail" class="hidden space-y-4 sm:space-y-6">
             <div class="flex items-center justify-between bg-white p-4 rounded-2xl border border-parchment-300 shadow-sm">
                 <button onclick="switchTab('records')" class="px-3 sm:px-4 py-2 rounded-xl bg-parchment-50 border border-parchment-300 hover:border-antique-gold text-xs text-taupe-800 font-occult font-bold transition flex items-center space-x-2 shadow-sm">
@@ -431,7 +428,6 @@
             </div>
         </div>
 
-        <!-- ==================== 4. ANALYTICS & INSIGHTS VIEW ==================== -->
         <div id="view-analytics" class="hidden space-y-6">
             <div class="text-center max-w-2xl mx-auto space-y-2 py-2">
                 <div class="inline-block text-antique-gold text-xs sm:text-sm tracking-widest font-occult uppercase border-b border-antique-gold/40 pb-1">Wisdom Analytics</div>
@@ -500,7 +496,6 @@
 
     </main>
 
-    <!-- ==================== EXPORT MODAL ==================== -->
     <div id="export-modal" class="fixed inset-0 z-50 bg-taupe-900/40 backdrop-blur-sm hidden flex items-center justify-center p-4">
         <div class="bg-white border border-antique-gold/50 rounded-2xl max-w-lg w-full p-6 space-y-6 shadow-2xl relative">
             <button onclick="closeExportModal()" class="absolute top-4 right-4 text-taupe-600 hover:text-taupe-900 text-xl font-bold">
